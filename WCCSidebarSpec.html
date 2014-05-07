@@ -1,0 +1,78 @@
+<html>
+<head>
+    <script type="text/javascript">
+        
+        function openWin(url, w, h) {
+            var left = (screen.width / 2) - (w / 2);
+            var top = (screen.height / 2) - (h / 2);
+            w = window.open(url, '13720644802623', 'width=' + w + ', height=' + h + ', scrollbars=no, menubar=no, resizable=no, location=no, toolbar=no, top=' + top + ', left=' + left + ', false');
+            w.focus();
+        }
+        
+    </script>
+    <style>
+        html, body
+        {
+            margin: 0;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            padding: 0;
+        }
+         
+        .button
+        {
+            display: inline-block;
+            padding: 6px 10px 6px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            line-height: 1;
+            -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+            -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+            text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+            border-bottom: 1px solid rgba(0,0,0,0.25);
+            position: relative;
+            cursor: pointer;
+            font-size: 13px;
+            margin-bottom: 10px;
+            width: 100px;
+        }
+      
+        .wcc.button
+        {
+            background-color: rgb(16,149,45);
+        }
+        
+        .header {
+            height: 20px;
+            width: 100%;
+            background:rgb(16,149,45);
+            background:-moz-linear-gradient(top,  rgb(16,149,45) 0%, rgb(0,109,60) 100%);
+            background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(16,149,45)), color-stop(100%,rgb(0,109,60)));
+            background:-webkit-linear-gradient(top,  rgb(16,149,45) 0%,rgb(0,109,60) 100%);
+            background:-o-linear-gradient(top,  rgb(16,149,45) 0%,rgb(0,109,60) 100%);
+            background:-ms-linear-gradient(top,  rgb(16,149,45) 0%,rgb(0,109,60) 100%);
+            background:linear-gradient(to bottom,  rgb(16,149,45) 0%,rgb(0,109,60) 100%);
+            filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#10952d', endColorstr='#006d3c',GradientType=0 );
+            text-align: left;
+            padding-left: 20px;
+            color: white;
+        }
+        
+        .links {
+            padding: 5px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="links">    
+        <a href="#" class="wcc button" onclick="openWin('link_to_wcc_groups_app', 800, 600);return false;">WCC Groups</a>
+        <a href="#" class="wcc button" onclick="openWin('link_to_meeting_room_app', 1260, 720);return false;">Meeting Rooms</a>
+    </div>
+
+</body>
+</html>
