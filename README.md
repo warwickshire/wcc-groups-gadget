@@ -1,7 +1,7 @@
 WCC Group Gadget
 =================
 
-The source file XML file is a Gmail sidebar gadget used to launch the WCC Group application.
+The source XML file is a Gmail sidebar gadget used to launch the WCC Group application.
 This allow easy access to the Groups lookup from the sidebar.
 
 ![enter image description here][1]
